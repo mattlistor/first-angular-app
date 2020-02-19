@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-crash-todolist';
+  num = 1;
+
+  constructor() {
+    this.num = 12;
+  }
 }
